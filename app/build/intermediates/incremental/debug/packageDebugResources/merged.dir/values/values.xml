@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="buttonAddItem" type="id"/>
+    <item name="editTextItemName" type="id"/>
+    <item name="recyclerViewItems" type="id"/>
+    <item name="textViewListName" type="id"/>
+    <string name="action_settings"/>
+    <string name="add_item"/>
+    <string name="app_name">TEA</string>
+    <string name="item_name_hint"/>
+    <string name="ok">OK</string>
+    <string name="pseudo">Pseudo</string>
+    <style name="Base.Theme.TEA" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.TEA" parent="Base.Theme.TEA"/>
+</resources>

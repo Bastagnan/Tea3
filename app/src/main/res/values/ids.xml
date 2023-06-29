@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerViewItems" type="id" />
+    <item name="editTextItemName" type="id" />
+    <item name="buttonAddItem" type="id" />
+    <item name="textViewListName" type="id" />
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TEA</string>
+    <string name="action_settings" />
+    <string name="pseudo">Pseudo</string>
+    <string name="ok">OK</string>
+    <string name="item_name_hint" />
+    <string name="add_item" />
+
+</resources>

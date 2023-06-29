@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tea"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:5:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\basti\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.tea.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\basti\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\basti\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.tea.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\basti\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\basti\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:6:5-32:19
+21        android:allowBackup="true"
+21-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\basti\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:13:9-41
+29        android:requestLegacyExternalStorage="true"
+29-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:8:9-52
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.TEA"
+33-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:16:9-41
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:9:9-44
+35        <activity
+35-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:18:9-26:20
+36            android:name="com.example.tea.MainActivity"
+36-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:19:13-41
+37            android:exported="true" >
+37-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:20:13-36
+38            <intent-filter>
+38-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:21:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:22:17-69
+39-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:22:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.example.tea.SettingsActivity" />
+44-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:28:9-53
+44-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:28:19-51
+45        <activity android:name="com.example.tea.ChoixListActivity" />
+45-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:29:9-54
+45-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:29:19-52
+46        <activity android:name="com.example.tea.ShowListActivity" />
+46-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:30:9-53
+46-->C:\Users\basti\AndroidStudioProjects\TEA2_Bastien_Poberay\app\src\main\AndroidManifest.xml:30:19-51
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0] C:\Users\basti\.gradle\caches\transforms-3\9a67403c4cd9dd6b1219ca6ed06c3bce\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0] C:\Users\basti\.gradle\caches\transforms-3\9a67403c4cd9dd6b1219ca6ed06c3bce\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] C:\Users\basti\.gradle\caches\transforms-3\9a67403c4cd9dd6b1219ca6ed06c3bce\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\basti\.gradle\caches\transforms-3\9a67403c4cd9dd6b1219ca6ed06c3bce\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0] C:\Users\basti\.gradle\caches\transforms-3\9a67403c4cd9dd6b1219ca6ed06c3bce\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] C:\Users\basti\.gradle\caches\transforms-3\9a67403c4cd9dd6b1219ca6ed06c3bce\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.tea.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\basti\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\basti\.gradle\caches\transforms-3\0521f07717581cdc27f649543e97f3ce\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\basti\.gradle\caches\transforms-3\0521f07717581cdc27f649543e97f3ce\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\basti\.gradle\caches\transforms-3\0521f07717581cdc27f649543e97f3ce\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

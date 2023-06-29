@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Settings Activity">
+        <EditTextPreference
+            android:key="base_url"
+            android:title="API URL"
+            android:summary="Enter the URL of the API"
+            android:dialogTitle="Enter API URL"
+            android:dialogMessage="Please enter the URL of the API"
+            android:defaultValue=""/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Identification">
+        <EditTextPreference
+            android:key="username_preference"
+            android:title="Nom d'utilisateur"
+            android:summary="Votre nom d'utilisateur"
+            android:dialogTitle="Modifier le nom d'utilisateur"
+            android:dialogMessage="Entrez votre nom d'utilisateur"
+            android:defaultValue=""/>
+        <EditTextPreference
+            android:key="password_preference"
+            android:title="Mot de passe"
+            android:summary="Votre mot de passe"
+            android:dialogTitle="Modifier le mot de passe"
+            android:dialogMessage="Entrez votre mot de passe"
+            android:defaultValue=""
+            android:inputType="textPassword"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
